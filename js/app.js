@@ -26,7 +26,7 @@ const PRODUCTS = [
     badge: 'new',
     rating: 4.8,
     reviews: 26,
-    img: 'https://www.apple.com/v/iphone/home/cb/images/overview/select/iphone_16__c5bvots96jee_xlarge.png',
+    img: 'https://www.apple.com/fr/iphone/compare/?modelList=iphone-17,iphone-air',
     specs: ['Design ultra-fin', 'Puce A19', 'Écran 6.6" OLED', 'Caméra 48MP', 'USB-C', 'MagSafe'],
     desc: 'iPhone 17 Air — design incroyablement fin et léger avec toute la puissance de la puce A19.'
   },
