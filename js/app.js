@@ -1387,6 +1387,23 @@ function scrollTo(sel) {
   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
+/* ============================================
+   MOBILE MENU (☰)
+   ============================================ */
+const mobileMenuBtn = document.getElementById('mobile-menu');
+const navLinksEl = document.querySelector('.nav-links');
+function closeMobileMenu() {
+  navLinksEl.classList.remove('mobile-open');
+  mobileMenuBtn.textContent = '☰';
+}
+function toggleMobileMenu() {
+  const open = navLinksEl.classList.toggle('mobile-open');
+  mobileMenuBtn.textContent = open ? '✕' : '☰';
+}
+mobileMenuBtn.onclick = toggleMobileMenu;
+navLinksEl.querySelectorAll('.nav-link').forEach(btn => btn.addEventListener('click', closeMobileMenu));
+window.addEventListener('resize', () => { if (window.innerWidth > 1024) closeMobileMenu(); });
+
 function filterProducts(cat) {
   scrollTo('#products');
   setFilter(cat);
