@@ -1836,7 +1836,7 @@ body, .cart-items, .chat-messages, #search-results {
   .hero-stats { gap: 18px; }
   .hero-stat-num { font-size: 22px; }
   .hero-ctas { flex-direction: column; }
-  .btn-primary, .btn-secondary { justify-content: center; width: 100%; }
+  .btn-primary, .btn-secondary { justify-content: center; width: 100%; white-space: normal; text-align: center; }
 
   .modal-body { grid-template-columns: 1fr; }
   .modal-img-wrap { position: static; aspect-ratio: 16/9; }
