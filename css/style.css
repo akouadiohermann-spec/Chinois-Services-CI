@@ -520,8 +520,15 @@ body, .cart-items, .chat-messages, #search-results {
   animation: float 4s ease-in-out infinite;
   will-change: transform;
 }
-.hero-float-card.card-1 { top: 60px; right: -10px; min-width: 175px; }
-.hero-float-card.card-2 { bottom: 80px; left: -20px; min-width: 160px; }
+.hero-float-card.card-1 { top: 60px; right: 6px; min-width: 175px; }
+.hero-float-card.card-2 { bottom: 80px; left: 6px; min-width: 160px; }
+
+/* Sur les écrans très larges, on a assez de marge pour l'effet de
+   superposition d'origine (cartes qui dépassent légèrement de l'image) */
+@media (min-width: 1500px) {
+  .hero-float-card.card-1 { right: -10px; }
+  .hero-float-card.card-2 { left: -20px; }
+}
 
 .float-label { font-size: 11px; color: var(--text3); font-weight: 500; margin-bottom: 4px; }
 .float-val { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; }
