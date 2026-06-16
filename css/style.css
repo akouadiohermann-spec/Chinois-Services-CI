@@ -1831,7 +1831,7 @@ body, .cart-items, .chat-messages, #search-results {
   .nav-btn.whatsapp-btn .wa-text { display: none; }
 
   .hero-inner { padding: 56px 24px; gap: 40px; }
-  .hero-phone { width: 240px; height: 463px; }
+  .hero-phone { width: 200px; height: 380px; }
 
   .hero-stats { gap: 18px; }
   .hero-stat-num { font-size: 22px; }
