@@ -414,7 +414,7 @@ body, .cart-items, .chat-messages, #search-results {
 .hero-title {
   font-family: 'Syne', sans-serif;
   font-size: clamp(40px, 5vw, 70px);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.05;
   letter-spacing: -2px;
   animation: fade-up 0.6s 0.2s both;
@@ -426,7 +426,7 @@ body, .cart-items, .chat-messages, #search-results {
   color: var(--text2);
   margin-top: 18px;
   line-height: 1.7;
-  max-width: 480px;
+  max-width: 470px;
   animation: fade-up 0.6s 0.3s both;
 }
 
@@ -456,9 +456,9 @@ body, .cart-items, .chat-messages, #search-results {
 .btn-primary {
   background: var(--accent);
   color: white;
-  font-size: 15px;
-  font-weight: 600;
-  padding: 14px 28px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 24px;
   border-radius: 50px;
   border: none;
   display: inline-flex;
@@ -477,9 +477,9 @@ body, .cart-items, .chat-messages, #search-results {
 .btn-secondary {
   background: var(--surface);
   color: var(--text);
-  font-size: 15px;
-  font-weight: 600;
-  padding: 14px 28px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 24px;
   border-radius: 50px;
   border: 1px solid var(--border2);
   display: inline-flex;
